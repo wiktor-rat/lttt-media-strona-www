@@ -12,7 +12,7 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <style>
     /* ===== RESET I ZMIENNE ===== */
@@ -37,7 +37,7 @@
       --text-muted: #64748b;
       --red-accent: #ef4444;
       --font-body: 'Inter', sans-serif;
-      --font-display: 'Syne', sans-serif;
+      --font-display: 'Inter', sans-serif;
       --max-width: 1200px;
       --section-padding: 100px 24px;
     }
@@ -112,16 +112,17 @@
     }
 
     .section-title {
-      font-family: var(--font-display);
-      font-size: clamp(28px, 4vw, 46px);
-      font-weight: 800;
+      font-family: var(--font-body);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 700;
       line-height: 1.15;
+      letter-spacing: -0.02em;
       color: var(--text-primary);
       margin-bottom: 16px;
     }
 
     .section-subtitle {
-      font-size: clamp(15px, 2vw, 18px);
+      font-size: clamp(0.95rem, 2vw, 1.1rem);
       color: var(--text-secondary);
       max-width: 640px;
       line-height: 1.7;
@@ -205,7 +206,7 @@
     }
 
     .navbar-logo {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 20px;
       font-weight: 800;
       letter-spacing: 0.06em;
@@ -357,10 +358,11 @@
     }
 
     .hero h1 {
-      font-family: var(--font-display);
-      font-size: clamp(30px, 5.5vw, 62px);
+      font-family: var(--font-body);
+      font-size: clamp(2rem, 5vw, 4.5rem);
       font-weight: 800;
       line-height: 1.1;
+      letter-spacing: -0.03em;
       max-width: 840px;
       margin-bottom: 24px;
     }
@@ -371,7 +373,7 @@
     }
 
     .hero-sub {
-      font-size: clamp(15px, 2.2vw, 20px);
+      font-size: clamp(0.95rem, 2.2vw, 1.2rem);
       color: var(--text-secondary);
       max-width: 580px;
       margin-bottom: 40px;
@@ -448,8 +450,8 @@
     }
 
     .stat-number {
-      font-family: var(--font-display);
-      font-size: clamp(28px, 4vw, 46px);
+      font-family: var(--font-body);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
       font-weight: 800;
       color: var(--blue);
       line-height: 1;
@@ -537,7 +539,7 @@
     }
 
     .step-number {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 36px;
       font-weight: 800;
       color: var(--blue);
@@ -547,7 +549,7 @@
     }
 
     .step-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 18px;
       font-weight: 700;
       color: var(--text-primary);
@@ -628,7 +630,7 @@
     }
 
     .service-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 22px;
       font-weight: 700;
       color: var(--text-primary);
@@ -669,7 +671,7 @@
 
     /* Dodatkowe usługi — grid małych kart */
     .services-extra-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 22px;
       font-weight: 700;
       color: var(--text-primary);
@@ -798,7 +800,7 @@
     }
 
     .mockup-label {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 13px;
       letter-spacing: 0.14em;
       text-transform: uppercase;
@@ -1017,7 +1019,7 @@
     }
 
     .ba-card-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 24px;
@@ -1097,7 +1099,7 @@
     }
 
     .whom-card-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 24px;
@@ -1253,9 +1255,10 @@
     }
 
     .cta-mid-title {
-      font-family: var(--font-display);
-      font-size: clamp(28px, 4vw, 48px);
+      font-family: var(--font-body);
+      font-size: clamp(1.8rem, 3vw, 3rem);
       font-weight: 800;
+      letter-spacing: -0.02em;
       color: var(--text-primary);
       margin-bottom: 20px;
       line-height: 1.15;
@@ -1292,7 +1295,7 @@
     }
 
     .contact-info-title {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 20px;
       font-weight: 700;
       color: var(--text-primary);
@@ -1467,7 +1470,7 @@
     }
 
     .form-success h3 {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 24px;
       font-weight: 700;
       color: var(--text-primary);
@@ -1502,7 +1505,7 @@
     }
 
     .footer-logo {
-      font-family: var(--font-display);
+      font-family: var(--font-body);
       font-size: 20px;
       font-weight: 800;
       letter-spacing: 0.06em;
